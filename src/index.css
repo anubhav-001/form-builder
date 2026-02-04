@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background text-slate-100 font-sans antialiased;
+}
+
+input,
+select,
+textarea {
+  @apply bg-surface text-slate-100;
+}
